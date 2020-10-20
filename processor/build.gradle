@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api project(':annotation')
+    api 'com.squareup:kotlinpoet:1.4.1'
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"

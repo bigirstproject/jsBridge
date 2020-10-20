@@ -1,0 +1,2 @@
+include ':processor', ':annotation',':app'
+rootProject.name = "JsBridge"
