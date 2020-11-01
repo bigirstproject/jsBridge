@@ -1,4 +1,4 @@
-package com.sunsun.jsbridge.interpreter
+package com.sunsun.jsbridge.interpreter;
 
 import java.io.Serializable
 

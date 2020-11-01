@@ -7,7 +7,7 @@ ext.deps = [:]
 def versions = [:]
 versions.aac = "1.1.1"
 versions.aac_compiler = "1.1.1"
-versions.butterKnife = "9.0.0"
+versions.butterKnife = "10.2.3"
 versions.bugly = "1.4.2"
 versions.tinker = "1.9.14"
 versions.eventbus = "3.1.1"
@@ -47,7 +47,10 @@ deps.glide_transformations = "jp.wasabeef:glide-transformations:$versions.glide_
 deps.eventbus = "org.greenrobot:eventbus:$versions.eventbus"
 deps.support_annotations = 'androidx.annotation:annotation:1.1.0'
 
-
+def butterKnife = [:]
+butterKnife.butterknife = "com.jakewharton:butterknife:$versions.butterKnife"
+butterKnife.butterknife_compiler = "com.jakewharton:butterknife-compiler:$versions.butterKnife"
+deps.butterKnife = butterKnife
 
 ext.deps = deps
 
@@ -59,7 +62,6 @@ ext.build_versions = build_versions
 
 
 def addRepos(RepositoryHandler handler) {
-
 
     //阿里云地址  备用
     handler.maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }

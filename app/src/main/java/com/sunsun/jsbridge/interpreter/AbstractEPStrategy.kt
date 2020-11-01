@@ -5,11 +5,6 @@ import com.google.gson.JsonElement
 import com.google.gson.JsonObject
 import java.io.Serializable
 
-/**
- * ${抽象协议类}
- * @author lixiuxian
- * @date 2019-08-14
- */
 abstract class AbstractEPStrategy : IEPStrategy {
 
     companion object {

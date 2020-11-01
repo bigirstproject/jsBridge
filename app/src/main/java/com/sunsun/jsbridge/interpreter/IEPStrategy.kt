@@ -1,9 +1,8 @@
 package com.sunsun.jsbridge.interpreter
 
 import android.os.Bundle
-import android.webkit.WebView
 import com.google.gson.JsonObject
-import com.sunsun.jsbridge.interpreter.AbstractEPStrategy
+import com.tencent.smtt.sdk.WebView
 
 /**
  * ${策略抽象}

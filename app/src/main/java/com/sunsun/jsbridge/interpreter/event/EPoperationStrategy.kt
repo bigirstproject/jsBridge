@@ -1,6 +1,6 @@
 package com.sunsun.jsbridge.interpreter.event
 
-import android.webkit.WebView
+import com.tencent.smtt.sdk.WebView
 import com.sunsun.annotation.MyEventType
 import com.sunsun.jsbridge.interpreter.AbstractEPStrategy
 
